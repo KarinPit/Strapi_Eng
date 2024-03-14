@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_names",
+  "info": {
+    "singularName": "navigation-name",
+    "pluralName": "navigation-names",
+    "displayName": "Navigation Name",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Home": {
+      "type": "string",
+      "required": true
+    },
+    "About": {
+      "type": "string",
+      "required": true
+    },
+    "Projects": {
+      "type": "string",
+      "required": true
+    },
+    "Blog": {
+      "type": "string",
+      "required": true
+    },
+    "Reviews": {
+      "type": "string",
+      "required": true
+    },
+    "Contact": {
+      "type": "string",
+      "required": true
+    },
+    "services": {
+      "type": "string",
+      "required": true
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

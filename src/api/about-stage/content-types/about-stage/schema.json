@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_stages",
+  "info": {
+    "singularName": "about-stage",
+    "pluralName": "about-stages",
+    "displayName": "aboutStage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks",
+      "required": true
+    },
+    "stageID": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

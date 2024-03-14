@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_services",
+  "info": {
+    "singularName": "about-service",
+    "pluralName": "about-services",
+    "displayName": "aboutService"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "stageID": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "serviceUrl": {
+      "type": "text"
+    }
+  }
+}
